@@ -56,7 +56,12 @@
     </div>
     </div>
     <div id="social">
-      <button><a href="SIGN-UP NOW!"></a></button>
+      <div class="button">
+        <button><a href="#">SIGN-UP NOW</a></button>
+      </div>
+      <div class="social-link">
+
+      </div>
     </div>
 
 
@@ -113,6 +118,23 @@ export default {
   width: 100%;
   position: relative;
   z-index: 100;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #303030;
+  border: solid 2px #0e6cc3;
+  width: 130px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+
+}
+
+button a {
+  color: white;
+  text-decoration: none;
 }
 
 </style>
