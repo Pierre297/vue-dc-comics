@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main id="comic-list">
     <Comiccard v-for="comic, i in comics" :key="i" :details="comic"/>
   </main>
 </template>
@@ -95,11 +95,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  main{
+  #comic-list{
+    width: 100%;
     background-color: hsl(0deg 0% 11%);
-    height: 100px;
     color: white;
     display: flex;
+    flex-wrap: wrap;
   }
 
   h3 {
