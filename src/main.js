@@ -11,13 +11,17 @@ new Vue({
 }).$mount("#app");
 
 new Vue({
-  render: (h) => h(Testata),
+  render: (h) => h(Header),
 }).$mount("#app");
 
 new Vue({
-  render: (h) => h(Principale),
+  render: (h) => h(Main),
 }).$mount("#app");
 
 new Vue({
-  render: (h) => h(Piepagina),
+  render: (h) => h(Comiccard),
+}).$mount("#app");
+
+new Vue({
+  render: (h) => h(Footer),
 }).$mount("#app");
