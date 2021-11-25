@@ -1,8 +1,9 @@
 import Vue from "vue";
 import App from "./App.vue";
-import Testata from "./App.vue";
-import Principale from "./App.vue";
-import Piepagina from "./App.vue";
+import Header from "./App.vue";
+import Main from "./App.vue";
+import Comiccard from "./App.vue";
+import Footer from "./App.vue";
 
 Vue.config.productionTip = false;
 

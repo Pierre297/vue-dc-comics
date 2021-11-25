@@ -1,13 +1,16 @@
 <template>
-  <main>
-    
-  </main>
+  <div class="product">
+      <img :src="details.thumb" alt="comic">
+      <h3>{{details.series}}</h3>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'Comiccard',
-
+    props: {
+        details: Object
+    }
 }
 </script>
 

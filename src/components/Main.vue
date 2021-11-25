@@ -1,14 +1,16 @@
 <template>
   <main>
-    
+    <Comiccard v-for="comic, i in comics" :key="i" :details="comic"/>
   </main>
 </template>
 
 <script>
+import Comiccard from '@/components/Comiccard.vue';
+
 export default {
   name: 'Main', 
     components: {
-      Comiccsard,
+      Comiccard ,
     },
     data() {
       return {
