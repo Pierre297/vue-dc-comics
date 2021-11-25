@@ -76,6 +76,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+section{
+  text-align: center;
+}
 #merch {
   background-color: #0282f9;
   height: 150px;

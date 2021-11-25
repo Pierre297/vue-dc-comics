@@ -73,6 +73,7 @@ export default {
 
 header{
   margin-bottom: 20px;
+  text-align: center;
 }
   nav {
     display: inline-block;

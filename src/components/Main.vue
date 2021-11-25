@@ -1,6 +1,10 @@
 <template>
-  <main id="comic-list">
+  <main>
+    <button><a href="#">CURRENT SERIES</a></button>
+    <div id="comic-list">
+    
     <Comiccard v-for="comic, i in comics" :key="i" :details="comic"/>
+    </div>
   </main>
 </template>
 
@@ -95,6 +99,25 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+    button{
+        display: inline-block;
+        background-color: #0282f9;
+        width: 150px;
+        height: 40px;
+        margin: 30px;
+        margin-left: 20px;
+        margin-left: 90px;
+        margin-top: -15px;
+        
+        a{
+          text-decoration: none;
+          color: white;
+        }
+    }
+    main{
+      background-color: hsl(0deg 0% 11%) ;
+    }
   #comic-list{
     width: 100%;
     background-color: hsl(0deg 0% 11%);
